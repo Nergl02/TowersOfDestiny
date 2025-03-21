@@ -1,0 +1,20 @@
+rising-lava:
+  enabled: true  # Pokud false, mód se nebude dát vybrat
+  speed: 30      # Rychlost růstu lávy (čím nižší číslo, tím rychlejší)
+  coverage: 50   # Pokrytí lávou v procentech (100 = celá plocha, 50 = náhodná místa)
+  remove-lava-on-end: true  # Má se láva po skončení hry odstranit?
+  start-message: "&cThe Rising Lava mode has started in arena &e%arenaname%&c!"
+
+player-swapper:
+  enabled: true
+  swap-interval: 15  # Každých X sekund se vymění 2 hráči
+  notifyPlayers: true  # Má se hráčům zobrazit zpráva, když se vymění?
+  start-message: "&dThe Player Swapper mode has started in arena &e%arenaname%&d! Players will swap positions!"
+  swap-notify: "&eYou swapped places with %player%!"
+
+item-shuffle:
+  enabled: true
+  shuffle-interval: 15  # Každých X sekund se zamíchá hotbar
+  replaceItems: true  # Pokud true, hráči dostanou zcela nové itemy
+  start-message: "&3The Item Shuffle mode has started in arena &e%arenaname%&3! Every &e%interval% &3seconds, you will receive new items!"
+  shuffle-notify: "&eYour hotbar has been completely changed!"

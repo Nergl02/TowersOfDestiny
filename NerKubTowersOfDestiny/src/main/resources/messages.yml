@@ -1,0 +1,67 @@
+prefix: '&8[&dT&5ow&ders&8]&r '
+
+no-permission: "&cSorry, but you do not have permission to run this command!"
+
+reload: "&aAll config files were successfully reloaded! (%duration% ms)"
+
+database:
+  connect: "&aSuccessfully connected to the database."
+  invalid-connection: "&cCannot connect to the database: &r%error%"
+  close: "&aConnection to the database was successfully closed."
+
+arena:
+  created: "&aArena &e%arenaname% &awas successfully created!"
+  removed: "&aThe arena &e%arenaname% &ahas been removed."
+  invalid-remove: "&cThe arena &e%arenaname% &cdoes not exist."
+  spawn-added: "&aSpawn point added to arena %arenaname%!"
+  set-end-lobby: "&aEnd location has been successfully set to your current position: &ex: %x%, &ey: %y%, &ez: %z%"
+  force-start: "&aThe game in arena &e%arenaname% &ahas been force-started!"
+  invalid-force-start: "&cThe arena &e%arenaname% &cdoes not exist or is not ready."
+  no-boundaries-set: "&cFirst, set both boundaries by clicking on blocks."
+  usage-create: "&cUsage: /towers createarena <arenaName>"
+  usage-add-spawn: "&cUsage: /towers addspawn <arenaName>"
+  usage-remove: "&cUsage: /towers removearena <arenaName>"
+  usage-force-start: "&cUsage: /towers forcestart <arenaName>"
+  no-available-arena: "&cNo available arena found! Try creating a new one."
+
+setup-tool:
+  activated: "&aSetup Tool activated. Select the arena corners."
+  deactivated: "&cSetup Tool deactivated."
+  first-boundary: "&aFirst boundary set to: &e%location%"
+  second-boundary: "&9Second boundary set to: &e%location%"
+
+vote:
+  made: "&aYou have voted for mode: &b%mode%"
+  already-voted: "&cYou have already voted for this mode."
+  player-not-in-arena: "&cYou can only vote if you are in an arena."
+
+game:
+  start: "&aThe game has started! Fight for survival!"
+  join: "&aYou have joined to arena &e%arenaname%&a!"
+  join-all: "&e%player% &ajoined the game! &7(%current_players%/%max_players%)"
+  frozen: "&cYou are temporarily frozen!"
+  unfrozen: "&aYou can now move!"
+  build-outside-arena: "&cYou can't build outside the arena!"
+  already-joined: "&eYou are already connected to the arena!"
+  leave: "&cYou have left arena &b%arenaname%&e."
+  leave-all: "&e%player% &cleft the game! &7(%current_players%/%max_players%)"
+  countdown: "&6Game will start in &c%countdown% &6seconds!"
+  countdown-already-running: "&6The countdown is already running! The game will start in &c%countdown% &6seconds."
+  not-enough-players: "&cNot enough players! At least &e%min_players% &care required to start."
+  not-enough-players-player-quit: "&cThe number of players dropped below the minimum! Countdown canceled."
+  in-game: "&cThe arena is in game!"
+  full-arena: "&cThe arena is full!"
+  mode-start: "&6The game in arena %arenaname% is starting in mode: &b%mode%&6."
+  winner-title: "&6 Winner: %player%"
+  winner-subtitle: "&eCongratulation!"
+  no-winner: "&cThe game in arena &e%arenaname% &chas ended without a winner."
+  winner-all: "&a%player% &6has won the game in arena &a%arenaname%&6!"
+  elimination: "&cYou have been eliminated! Watch the game as a spectator."
+  self-elimination: "&e%player% &cwas eliminated by his fault!"
+  # You can add much more, just type 6: <your kill message>
+  elimination-messages:
+    1: "&e%victim% &cwas knocked out by &e%killer%&c!"
+    2: "&e%victim% &ccouldn't survive &e%killer%'s &cattack!"
+    3: "&e%victim% &cwas outplayed by &e%killer%&c!"
+    4: "&e%victim% &ctried to escape from &e%killer%&c, but failed!"
+    5: "&e%victim% &cwas sent flying by &e%killer%&c!"

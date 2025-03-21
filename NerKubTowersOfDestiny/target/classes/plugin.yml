@@ -1,0 +1,13 @@
+name: NerKubTowersOfDestiny
+version: '1.0.0'
+main: cz.nerkub.NerKubTowersOfDestiny.NerKubTowersOfDestiny
+api-version: '1.20'
+author: NerKub
+description: Towers of Destiny plugin
+
+depend: ["PlaceholderAPI"]
+
+commands:
+  towers:
+    description: Hlavní příkaz Towers of Destiny
+    usage: /towers <subcommand>

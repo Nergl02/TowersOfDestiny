@@ -1,0 +1,31 @@
+gui:
+  title: "&6Vote for a Game Mode!"
+  size: 9 # Inventory size (must be a multiple of 9)
+
+  items:
+    lava:
+      slot: 2
+      material: LAVA_BUCKET
+      display_name: "&cRising Lava"
+      lore:
+        - "&7Lava will start rising!"
+        - "&eClick to vote!"
+    swapper:
+      slot: 4
+      material: ENDER_PEARL
+      display_name: "&9Player Swapper"
+      lore:
+        - "&7Every X seconds, players will swap places!"
+        - "&eClick to vote!"
+    shuffle:
+      slot: 6
+      material: CHEST
+      display_name: "&aItem Shuffle"
+      lore:
+        - "&7Every X seconds, your inventory will shuffle!"
+        - "&eClick to vote!"
+
+selected:
+  enchant: true
+  enchantment: "UNBREAKING"
+  hide_enchants: true

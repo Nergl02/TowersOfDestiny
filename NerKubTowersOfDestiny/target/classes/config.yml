@@ -1,0 +1,17 @@
+database:
+  host: "localhost"
+  port: "3306"
+  username: "your_username"
+  db_name: "your_database"
+  password: "your_password"
+
+debug: false
+
+bungeecord:
+  use: false # 🔄 True = přepojí na jiný server, False = teleportuje na end_location
+  hub_server: "hub" # 🎯 Server, kam se hráči přepojí, pokud je aktivní BungeeCord
+
+game:
+  required_player_percentage: 50.0  # ✅ Požadované % hráčů z maximálního počtu (např. 50 %)
+  item_spawn_interval: 3 # In seconds
+  celebration_time: 5 # Celebration in seconds
