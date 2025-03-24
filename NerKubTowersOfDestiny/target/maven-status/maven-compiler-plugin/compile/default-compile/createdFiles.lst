@@ -28,6 +28,7 @@ cz\nerkub\NerKubTowersOfDestiny\Listeners\PlayerMoveListener.class
 cz\nerkub\NerKubTowersOfDestiny\Listeners\PlayerJoinListener.class
 cz\nerkub\NerKubTowersOfDestiny\Managers\ArenaManager.class
 cz\nerkub\NerKubTowersOfDestiny\Metrics$MultiLineChart.class
+cz\nerkub\NerKubTowersOfDestiny\CheckUpdatesGitHub.class
 cz\nerkub\NerKubTowersOfDestiny\GameModes\GameModeBase.class
 cz\nerkub\NerKubTowersOfDestiny\Utils\RandomItemGenerator.class
 cz\nerkub\NerKubTowersOfDestiny\Commands\CommandHandler.class

@@ -4,7 +4,7 @@
   <groupId>cz.nerkub</groupId>
   <artifactId>NerKubTowersOfDestiny</artifactId>
   <name>NerKubTowersOfDestiny</name>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
   <build>
     <defaultGoal>clean package</defaultGoal>
     <resources>

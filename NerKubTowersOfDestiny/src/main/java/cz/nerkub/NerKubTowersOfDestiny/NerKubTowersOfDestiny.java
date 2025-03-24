@@ -20,6 +20,8 @@ public final class NerKubTowersOfDestiny extends JavaPlugin {
 	private CustomConfig modes;
 	private CustomConfig votegui;
 
+	private CheckUpdatesGitHub checkUpdatesGitHub;
+
 	private DatabaseManager databaseManager;
 	private ArenaManager arenaManager;
 	private GameManager gameManager;
@@ -43,6 +45,9 @@ public final class NerKubTowersOfDestiny extends JavaPlugin {
 		messages.updateConfig();
 		modes.updateConfig();
 		votegui.updateConfig();
+
+		checkUpdatesGitHub = new CheckUpdatesGitHub(this);
+		checkUpdatesGitHub.checkForUpdates();
 
 		int pluginId = 25004;
 		Metrics metrics = new Metrics(this, pluginId);
@@ -92,7 +97,7 @@ public final class NerKubTowersOfDestiny extends JavaPlugin {
 		getServer().getPluginManager().registerEvents(voteItem, this);
 		getServer().getPluginManager().registerEvents(new VoteGUI(this, voteManager), this);
 		getServer().getPluginManager().registerEvents(new PlayerDeathListener(this, gameManager), this);
-		getServer().getPluginManager().registerEvents(new PlayerJoinListener(databaseManager), this);
+		getServer().getPluginManager().registerEvents(new PlayerJoinListener(databaseManager, checkUpdatesGitHub), this);
 		getServer().getPluginManager().registerEvents(new BlockPlaceListener(this, databaseManager, gameManager), this);
 
 		commandHandler = new CommandHandler(this, databaseManager, arenaManager, gameManager);

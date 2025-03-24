@@ -1,5 +1,5 @@
 name: NerKubTowersOfDestiny
-version: '1.0.0'
+version: '1.0.3'
 main: cz.nerkub.NerKubTowersOfDestiny.NerKubTowersOfDestiny
 api-version: '1.20'
 author: NerKub
